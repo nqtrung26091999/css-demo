@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://images.hdqwalls.com/wallpapers/anime-girl-reflection-starry-night-jy.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+form {
+    background-color: rgba(17, 8, 8, 0.75);
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    position: relative;
+    border-radius: 0.2rem;
+}
+
+form h2 {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 50%;
+    border: 0.2rem solid white;
+}
+
+input {
+    margin-bottom: 30px;
+    background-color: rgba(126, 126, 126, 0.5);
+    border: none;
+    padding: 8px 10px;
+    /* border-radius: 1rem; */
+    outline: none;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 5px;
+}
