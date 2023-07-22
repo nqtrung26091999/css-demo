@@ -1,0 +1,48 @@
+/* .album-square {
+    background-image: url('https://loremflickr.com/320/320');
+    height: 320px;
+    width: 320px;
+    font-size: 100px;
+}
+
+.album-square .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.album-square:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.boder {
+    border: 1px;
+    border-style: solid;
+} */
+.box1 {
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+.box2 {
+    background-color: rgb(17, 62, 189);
+    height: 50px;
+    width: 50px;
+}
+.box3 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+}
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+}

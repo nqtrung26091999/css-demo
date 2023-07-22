@@ -1,0 +1,42 @@
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px 16px;
+}
+
+.menu li:hover {
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.menu .has-submenu {
+    position: relative;
+}
+
+.menu .submenu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu a {
+    padding: 0;
+}
+

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weekly-item {
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 2px solid #EEE;
+}
+
+.weekly-item:hover {
+    cursor: pointer;
+    background-color: #EEE;
+}
+
+.weekly-item .number {
+    margin: 0 8px;
+    font-size: 20px;
+}
+
+.weekly-item .content {
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.weekly-item .singer {
+    color: #999;
+    margin-top: 8px;
+}
+
+.weekly-item .view-count {
+    font-size: 14px;
+    color: #999;
+    padding-right: 8px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}

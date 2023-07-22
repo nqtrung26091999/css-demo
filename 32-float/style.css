@@ -1,0 +1,45 @@
+.header {
+    background-color: antiquewhite;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.left {
+    width: 20%;
+    height: 300px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.right {
+    width: 20%;
+    height: 300px;
+    background-color: antiquewhite;
+    float: right;
+}
+
+/* .footer {
+    clear: both;
+    height: 100px;
+    background-color: aqua;
+} */
+
+.content {
+    width: 57.2%;
+    height: 300px;
+    float: left;
+    background-color: brown;
+    margin-left: 10px;
+}
+
+.wrapper::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.footer {
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 10px;
+}

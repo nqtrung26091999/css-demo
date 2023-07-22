@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item1 {
+    background-color: antiquewhite;
+    flex-grow: 1;
+    border: 1px solid #AAA;
+    padding: 50px;
+    text-align: center;
+}
+.item2 {
+    background-color: antiquewhite;
+    flex-grow: 1;
+    border: 1px solid #AAA;
+    padding: 50px;
+    text-align: center;
+}
+.item3 {
+    background-color: antiquewhite;
+    flex-grow: 1;
+    border: 1px solid #AAA;
+    padding: 50px;
+    text-align: center;
+}
+
+@media(max-width:500px) {
+    .container {
+        flex-direction: column;
+    }
+}

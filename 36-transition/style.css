@@ -1,0 +1,33 @@
+.container {
+    background-image: url(https://loremflickr.com/320/240);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    font-size: 70px;
+    transition: all 0.5s;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+i {
+    transform: scale(0.3);
+    transition: all 0.5s;
+}
+
+.container:hover i {
+    transform: scale(1);
+}
